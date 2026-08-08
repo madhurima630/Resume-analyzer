@@ -1,0 +1,62 @@
+# Environment variables
+.env
+
+# Virtual environment
+myenv/
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploaded files
+uploaded_resume.pdf
+temp_resume.pdf
+temp.pdf
+*.pdf
+
+# Model files (too large for git)
+resume_classifier.pkl
+resume_model.pkl
+resume_vectorizer.pkl
+resume_embedding_model/
+
+# Dataset (sensitive/large)
+Resume.csv
+*.csv
+
+# Logs
+*.log
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
